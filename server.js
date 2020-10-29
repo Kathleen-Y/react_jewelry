@@ -1,33 +1,99 @@
-const express = require('express');
-const path = require('path');
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const shortid = require("shortid");
+
 const app = express();
-const PORT = process.env.PORT || 8080;
+app.use(bodyParser.json());
 
-var db = require("./models");
+app.use("/", express.static(__dirname + "/build"));
+app.get("/", (req, res) => res.sendFile(__dirname + "/build/index.html"));
 
-// Sets up the Express app to handle data parsing
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+mongoose.connect(
+  process.env.MONGODB_URL || "mongodb://localhost/jewelry_db",
+  {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+  }
+);
 
-//app.use(express.static("client/public"));
-app.use(require("./routes/products.js"));
-app.use(require("./routes/checkout-routes.js"));
+const Product = mongoose.model(
+  "products",
+  new mongoose.Schema({
+    _id: { type: String, default: shortid.generate },
+    title: String,
+    description: String,
+    image: String,
+    price: Number,
+    availableSizes: [String],
+  })
+);
 
-
-//Serve static assets in production
-if (process.env.NODE_ENV === 'production') {
-  //Set static folder
-  app.use(express.static('client/build'));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
-}
-
-//Sequelize connection
-const { QueryTypes } = require('sequelize');
-db.sequelize.sync({ force: false }).then(function () {
-  app.listen(PORT, function () {
-    console.log("App listening on PORT " + PORT);
-  });
+app.get("/api/products", async (req, res) => {
+  const products = await Product.find({});
+  res.send(products);
 });
+
+app.post("/api/products", async (req, res) => {
+  const newProduct = new Product(req.body);
+  const savedProduct = await newProduct.save();
+  res.send(savedProduct);
+});
+
+app.delete("/api/products/:id", async (req, res) => {
+  const deletedProduct = await Product.findByIdAndDelete(req.params.id);
+  res.send(deletedProduct);
+});
+
+const Order = mongoose.model(
+  "order",
+  new mongoose.Schema(
+    {
+      _id: {
+        type: String,
+        default: shortid.generate,
+      },
+      email: String,
+      name: String,
+      address: String,
+      total: Number,
+      cartItems: [
+        {
+          _id: String,
+          title: String,
+          price: Number,
+          count: Number,
+        },
+      ],
+    },
+    {
+      timestamps: true,
+    }
+  )
+);
+
+app.post("/api/orders", async (req, res) => {
+  if (
+    !req.body.name ||
+    !req.body.email ||
+    !req.body.address ||
+    !req.body.total ||
+    !req.body.cartItems
+  ) {
+    return res.send({ message: "Data is required." });
+  }
+  const order = await Order(req.body).save();
+  res.send(order);
+});
+app.get("/api/orders", async (req, res) => {
+  const orders = await Order.find({});
+  res.send(orders);
+});
+app.delete("/api/orders/:id", async (req, res) => {
+  const order = await Order.findByIdAndDelete(req.params.id);
+  res.send(order);
+});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log("serve at http://localhost:3000"));
