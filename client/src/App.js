@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import store from "./store";
 import { Provider } from "react-redux";
-import { Router, Switch, BrowserRouter, Route, Link } from "react-router-dom";
+import { Router, Switch, BrowserRouter, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import AdminScreen from "./screens/AdminScreen";
-import Shop from './pages/Shop';
-import Home from './components/pages/Home';
+// import Shop from './pages/Shop';
+// import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Press from './components/pages/Press';
 import Lookbook from './components/pages/Lookbook';
-import Header from './components/pages/layouts/header/header';
-import Contact from './components/pages/layouts/contact/contact'
+import Header from './components/layouts/header/header';
+import Contact from './components/layouts/contact/contact'
 import Faq from './components/pages/Faq';
 //import Account from './pages/Account';
-import Nav from './components/pages/layouts/navbar/Nav'
-import Footer from './components/pages/layouts/footer/Footer';
+import Nav from './components/layouts/navbar/Nav'
+import Footer from './components/layouts/footer/Footer';
 
 
 class App extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Filter from "../components/Filter";
-import Products from "../components/Products";
+import Filter from "../components/pages/Filter";
+import Products from "../components/pages/Products";
 import Cart from "../components/pages/Cart";
 
 export default class HomeScreen extends Component {
