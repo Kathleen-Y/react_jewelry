@@ -1,7 +1,7 @@
 [
  {
    "id": 1,
-   "handle": "black-resin-onyx-earrings",
+   "name": "black-resin-onyx-earrings",
    "title": "Black Resin and Onyx Earrings",
    "body": "Exactly what Beyonce wore in her Brown Skin Girl music video!\nBlack resin and onyx earrings with white matte Swarovski at the top of the clip-on earrings.",
    "tags": "Earrings",
@@ -10,7 +10,7 @@
  },
  {
    "id": 2,
-   "handle": "aries-gold-swarovski-crystal-ring",
+   "name": "aries-gold-swarovski-crystal-ring",
    "title": "Aries Gold and Swarovski Crystal Ring",
    "body": "Aries ring in gold plated and Swarovski crystal",
    "tags": "Rings",
@@ -19,7 +19,7 @@
  },
  {
    "id": 3,
-   "handle": "taurus-silver-ring",
+   "name": "taurus-silver-ring",
    "title": "Taurus Silver Ring",
    "body": "Taurus ring in plated silver Sizes: 9 10",
    "tags": "Rings",
@@ -28,7 +28,7 @@
  },
  {
    "id": 4,
-   "handle": "taurus-gunmetal-ring",
+   "name": "taurus-gunmetal-ring",
    "title": "Taurus Gunmetal Ring",
    "body": "Taurus gunmetal ring Sizes: 9, 10",
    "tags": "Rings",
@@ -37,7 +37,7 @@
  },
  {
    "id": 5,
-   "handle": "taurus-gunmetal-ring",
+   "name": "taurus-gunmetal-ring",
    "title": "Taurus Gunmetal Ring",
    "body": "Taurus gunmetal ring Sizes: 9, 11",
    "tags": "Rings",
@@ -46,7 +46,7 @@
  },
  {
    "id": 6,
-   "handle": "virgo-silver-ring",
+   "name": "virgo-silver-ring",
    "title": "Virgo Silver Ring",
    "body": "virgo ring in plated silver Sizes: 9, 10",
    "tags": "Rings",
@@ -55,7 +55,7 @@
  },
  {
    "id": 7,
-   "handle": "virgo-gold-swarovski-crystal-ring",
+   "name": "virgo-gold-swarovski-crystal-ring",
    "title": "Virgo Gold and Swarovski Crystal Ring",
    "body": "Virgo ring in gold plated and swarovski crystal",
    "tags": "Rings",
@@ -64,7 +64,7 @@
  },
  {
    "id": 8,
-   "handle": "virgo-gunmetal-ring",
+   "name": "virgo-gunmetal-ring",
    "title": "Virgo Gunmetal Ring",
    "body": "Virgon ring in gunmetal Sizes: 9, 10",
    "tags": "Rings",
@@ -73,7 +73,7 @@
  },
  {
    "id": 9,
-   "handle": "silver-over-bronze-earrings",
+   "name": "silver-over-bronze-earrings",
    "title": "Silver Over Bronze Earrings",
    "body": "2 inches earring, silver plated over bronze",
    "tags": "Rings",
@@ -82,7 +82,7 @@
  },
  {
    "id": 10,
-   "handle": "silver-double-twist-ring",
+   "name": "silver-double-twist-ring",
    "title": "Silver Double Twist Ring",
    "body": "Silver plated double twist ring Size: 8.5",
    "tags": "Rings",
@@ -91,7 +91,7 @@
  },
  {
    "id": 11,
-   "handle": "gunmetal-twist-rings",
+   "name": "gunmetal-twist-rings",
    "title": "Gunmetal Twist Rings",
    "body": "Gunmetal plated double twist ring with two sizes Size: 7.5, 9.5",
    "tags": "Rings",
@@ -100,7 +100,7 @@
  },
  {
    "id": 12,
-   "handle": "14kt-gold-double-twist-ring",
+   "name": "14kt-gold-double-twist-ring",
    "title": "14kt Gold Double Twist Ring",
    "body": "14kt Gold Plated Double Twist Ring Size: 3.5",
    "tags": "Rings",
@@ -109,7 +109,7 @@
  },
  {
    "id": 13,
-   "handle": "14kt-gold-twist-rings",
+   "name": "14kt-gold-twist-rings",
    "title": "14kt Gold Twist Rings",
    "body": "14 k gold twist ring with two sizes Sizes: 2.5,  4.5 ",
    "tags": "Rings",
@@ -118,7 +118,7 @@
  },
  {
    "id": 14,
-   "handle": "silver-plated-ruffle-ring-1",
+   "name": "silver-plated-ruffle-ring-1",
    "title": "Silver Plated Ruffle Ring",
    "body": "Silver plated ruffle ring 1/2 inch",
    "tags": "Rings",
@@ -127,7 +127,7 @@
  },
  {
    "id": 15,
-   "handle": "silver-plated-ruffle-ring",
+   "name": "silver-plated-ruffle-ring",
    "title": "Silver Plated Ruffle Ring",
    "body": "Silver plated ruffle ring Size: 7.5",
    "tags": "Rings",
@@ -136,7 +136,7 @@
  },
  {
    "id": 16,
-   "handle": "silver-plated-necklace",
+   "name": "silver-plated-necklace",
    "title": "Silver Plated Necklace",
    "body": "silver plated delicate necklace 18 inches long",
    "tags": "Necklaces",
@@ -145,7 +145,7 @@
  },
  {
    "id": 17,
-   "handle": "14k-gold-plated-rings",
+   "name": "14k-gold-plated-rings",
    "title": "14k Gold Plated Rings",
    "body": "14 kt Gold plated hexagon rings Sizes: 7-11",
    "tags": "Rings",
@@ -154,7 +154,7 @@
  },
  {
    "id": 18,
-   "handle": "silver-fringe-necklace",
+   "name": "silver-fringe-necklace",
    "title": "Silver Fringe Necklace",
    "body": "silver plated 30 inch fringe necklace",
    "tags": "Necklaces",
@@ -163,7 +163,7 @@
  },
  {
    "id": 19,
-   "handle": "14kt-gold-plated-necklace",
+   "name": "14kt-gold-plated-necklace",
    "title": "14kt Gold Plated Necklace",
    "body": "14k gold plated necklace 28 inch long",
    "tags": "Necklaces",
@@ -172,7 +172,7 @@
  },
  {
    "id": 20,
-   "handle": "14kt-gold-double-people-earrings",
+   "name": "14kt-gold-double-people-earrings",
    "title": "14kt Gold Double People Earrings",
    "body": "14k gold double people 2 inches earrings",
    "tags": "Earrings",
@@ -181,7 +181,7 @@
  },
  {
    "id": 21,
-   "handle": "14k-gold-people-earrings",
+   "name": "14k-gold-people-earrings",
    "title": "14k Gold People Earrings",
    "body": "14k gold people earrings",
    "tags": "Earrings",
@@ -190,7 +190,7 @@
  },
  {
    "id": 22,
-   "handle": "gold-swarovski-rings-set",
+   "name": "gold-swarovski-rings-set",
    "title": "Gold and Swarovski Rings Set",
    "body": "Gold plated ring set in amber Swarovski ,white matte Swarovski,clear Swarovski Size: 9",
    "tags": "Rings",
@@ -199,7 +199,7 @@
  },
  {
    "id": 23,
-   "handle": "leo-silver",
+   "name": "leo-silver",
    "title": "Leo Silver",
    "body": "Leo ring in plated silver Sizes: 9, 10",
    "tags": "Rings",
@@ -208,7 +208,7 @@
  },
  {
    "id": 24,
-   "handle": "leo-gunmetal-ring-1",
+   "name": "leo-gunmetal-ring-1",
    "title": "Leo Gunmetal Ring",
    "body": "Leo ring in gunmetal Sizes: 9, 10",
    "tags": "Rings",
@@ -217,7 +217,7 @@
  },
  {
    "id": 25,
-   "handle": "leo-gold-swarovski-crystal-ring",
+   "name": "leo-gold-swarovski-crystal-ring",
    "title": "Leo Gold and Swarovski Crystal Ring",
    "body": "Leo ring in gold plated and swarovski crystal",
    "tags": "Rings",
@@ -226,7 +226,7 @@
  },
  {
    "id": 26,
-   "handle": "gunmetal-hexagon-rings",
+   "name": "gunmetal-hexagon-rings",
    "title": "Gunmetal Hexagon Rings",
    "body": "Gunmetal plated hexagon rings. Sizes: 3.5",
    "tags": "Rings",
@@ -235,7 +235,7 @@
  },
  {
    "id": 27,
-   "handle": "gunmetal-fringe-necklace-2",
+   "name": "gunmetal-fringe-necklace-2",
    "title": "Gunmetal Fringe Necklace",
    "body": "17 inch gunmetal fringe necklace",
    "tags": "Necklaces",
@@ -244,7 +244,7 @@
  },
  {
    "id": 28,
-   "handle": "gunmetal-fringe-necklace-1",
+   "name": "gunmetal-fringe-necklace-1",
    "title": "Gunmetal Fringe Necklace",
    "body": "gunmetal fringe necklace 30 inch",
    "tags": "Necklaces",
@@ -253,7 +253,7 @@
  },
  {
    "id": 29,
-   "handle": "gunmetal-band",
+   "name": "gunmetal-band",
    "title": "Gunmetal Band",
    "body": "Gunmetal ring Size 6",
    "tags": "Rings",
@@ -262,7 +262,7 @@
  },
  {
    "id": 30,
-   "handle": "gold-square-set-rings",
+   "name": "gold-square-set-rings",
    "title": "Gold Square Set Rings",
    "body": "14 kt gold plated square rings Sizes: 10.5",
    "tags": "Rings",
@@ -271,7 +271,7 @@
  },
  {
    "id": 31,
-   "handle": "14k-gold-plated-ring-1",
+   "name": "14k-gold-plated-ring-1",
    "title": "14k Gold Plated Ring",
    "body": "14 k gold plated faceted ring Size: 10.5",
    "tags": "Rings",
@@ -280,7 +280,7 @@
  },
  {
    "id": 32,
-   "handle": "14k-gold-plated-ring",
+   "name": "14k-gold-plated-ring",
    "title": "14k Gold Plated Ring",
    "body": "14 k gold plated faceted ring",
    "tags": "Rings",
@@ -289,7 +289,7 @@
  },
  {
    "id": 33,
-   "handle": "14kt-gold-multilayer-fringe-necklace",
+   "name": "14kt-gold-multilayer-fringe-necklace",
    "title": "14kt Gold Multilayer Fringe Necklace",
    "body": "14 kt gold plated multi-layer fringe necklace 18 1/2 inches with lobster clasp",
    "tags": "Necklaces",
@@ -298,7 +298,7 @@
  },
  {
    "id": 34,
-   "handle": "14kt-gold-engagement-ring",
+   "name": "14kt-gold-engagement-ring",
    "title": "14kt Gold Engagement Ring",
    "body": "14kt gold band picky ring ,engagement replacement",
    "tags": "Rings",
@@ -307,7 +307,7 @@
  },
  {
    "id": 35,
-   "handle": "gold-plated-delicate-necklace",
+   "name": "gold-plated-delicate-necklace",
    "title": "Gold Plated Delicate Necklace",
    "body": "14k gold plated delicate necklace, 18 inches long",
    "tags": "Necklaces",
@@ -316,7 +316,7 @@
  },
  {
    "id": 36,
-   "handle": "gemini-gold-swarovski-crystal-ring",
+   "name": "gemini-gold-swarovski-crystal-ring",
    "title": "Gemini Gold and Swarovski Crystal Ring",
    "body": "Gemini ring in gold plated and swarovski crystal",
    "tags": "Rings",
@@ -325,7 +325,7 @@
  },
  {
    "id": 37,
-   "handle": "14k-gold-swarovski-rings-in-clear",
+   "name": "14k-gold-swarovski-rings-in-clear",
    "title": "14k Gold, Swarovski Rings in Clear",
    "body": "14 k gold plated rings with Swarovski in clear Sizes: 9, 10",
    "tags": "Rings",
@@ -334,7 +334,7 @@
  },
  {
    "id": 38,
-   "handle": "capricorn-silver-ringer",
+   "name": "capricorn-silver-ringer",
    "title": "Capricorn Silver Ring",
    "body": "Capricorn ring in plated silver Sizes: 9, 10",
    "tags": "Rings",
@@ -343,7 +343,7 @@
  },
  {
    "id": 39,
-   "handle": "capricorn-gunmetal-ring",
+   "name": "capricorn-gunmetal-ring",
    "title": "Capricorn Gunmetal Ring",
    "body": "Capricorn ring in gunmetal Sizes: 9, 10",
    "tags": "Rings",
@@ -352,7 +352,7 @@
  },
  {
    "id": 40,
-   "handle": "capricorn-gold-swarovski-crystal-ring",
+   "name": "capricorn-gold-swarovski-crystal-ring",
    "title": "Capricorn Gold and Swarovski Crystal Ring",
    "body": "Capricorn ring in gold plated and Swarovski crystal Sizes: 5, 6, 6, 6, 7, 8, 8",
    "tags": "Rings",
@@ -361,7 +361,7 @@
  },
  {
    "id": 41,
-   "handle": "cancer-gold-swarovski-crystal-ring",
+   "name": "cancer-gold-swarovski-crystal-ring",
    "title": "Cancer Gold and Swarovski Crystal Ring",
    "body": "Aquarius ring in gold plated and swarovski crystal with Sizes 5, 5, 6, 6, 7, 7, 8, 9, 10, 10",
    "tags": "Rings",
@@ -370,7 +370,7 @@
  },
  {
    "id": 42,
-   "handle": "14k-gold-ring-deepest-purple",
+   "name": "14k-gold-ring-deepest-purple",
    "title": "14k Gold ring, Deepest Purple",
    "body": "14 k gold ring with Swarovski in deepest purple",
    "tags": "Rings",
@@ -379,7 +379,7 @@
  },
  {
    "id": 43,
-   "handle": "14k-gold-swarovski-rings-in-candy-pink",
+   "name": "14k-gold-swarovski-rings-in-candy-pink",
    "title": "14k Gold, Swarovski Rings in Candy Pink",
    "body": "14 k gold plated rings with Swarovski in candy pink Sizes 7, 8, 11",
    "tags": "Rings",
@@ -388,7 +388,7 @@
  },
  {
    "id": 44,
-   "handle": "aquarius-gold-swarovski-crystal",
+   "name": "aquarius-gold-swarovski-crystal",
    "title": "Aquarius Gold and Swarovski Crystal Ring",
    "body": "Aquarius ring in gold plated and swarovski crystal",
    "tags": "Rings",
@@ -397,7 +397,7 @@
  },
  {
    "id": 45,
-   "handle": "aquarius-ring-silver",
+   "name": "aquarius-ring-silver",
    "title": "Aquarius Silver Ring",
    "body": "Aquarius ring in plated silver Sizes 9, 10",
    "tags": "Rings",
@@ -406,7 +406,7 @@
  },
  {
    "id": 46,
-   "handle": "aquarius-gunmetal",
+   "name": "aquarius-gunmetal",
    "title": "Aquarius Gunmetal Ring",
    "body": "Aquarius ring in gunmetal Sizes 9, 10",
    "tags": "Rings",
@@ -415,7 +415,7 @@
  },
  {
    "id": 47,
-   "handle": "aquarius-ring-gold-swarovski-crystal",
+   "name": "aquarius-ring-gold-swarovski-crystal",
    "title": "Aquarius Gold and Swarovski Crystal Ring",
    "body": "Aquarius ring in gold plated and swarovski crystal",
    "tags": "Rings",
@@ -424,7 +424,7 @@
  },
  {
    "id": 48,
-   "handle": "gold-plated-swarovski-crystal-candy-apple-red",
+   "name": "gold-plated-swarovski-crystal-candy-apple-red",
    "title": "Gold Plated, Swarovski Crystal in Candy Apple Red",
    "body": "14 kt gold plated rings with Swarovski in candy apple red Sizes 6, 6 1/2",
    "tags": "Rings",
@@ -433,7 +433,7 @@
  },
  {
    "id": 49,
-   "handle": "leo-gunmetal-ring",
+   "name": "leo-gunmetal-ring",
    "title": "Leo Gunmetal Ring",
    "body": "Leo ring in gunmetal size 9,size10",
    "tags": "Rings",
@@ -442,7 +442,7 @@
  },
  {
    "id": 50,
-   "handle": "aquarius-ring-silver",
+   "name": "aquarius-ring-silver",
    "title": "Aquarius Silver Ring",
    "body": "Aquarius ring in plated silver Sizes 9, 10",
    "tags": "Rings",

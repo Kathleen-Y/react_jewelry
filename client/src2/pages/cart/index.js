@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Cart = () => {
 
-    const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } = useContext(CartContext);
+    const { total, cartItems, itemCount, clearCart, checkout, nameCheckout } = useContext(CartContext);
     
     return ( 
         <Layout title="Cart" description="This is the Cart page" >
@@ -45,7 +45,7 @@ const Cart = () => {
                                 <h3 className="m-0 txt-right">{formatNumber(total)}</h3>
                                 <hr className="my-4"/>
                                 <div className="text-center">
-                                    <button type="button" className="btn btn-primary mb-2" onClick={handleCheckout}>CHECKOUT</button>
+                                    <button type="button" className="btn btn-primary mb-2" onClick={nameCheckout}>CHECKOUT</button>
                                     <button type="button" className="btn btn-outlineprimary btn-sm" onClick={clearCart}>CLEAR</button>
                                 </div>
 

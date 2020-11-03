@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
 
-const app = (
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+import { HelmetProvider } from 'react-helmet-async';
+import ProductsContextProvider from './contexts/ProductsContext';
+import CartContextProvider from './contexts/CartContext';
+
+ReactDOM.render(
+    <HelmetProvider>
+      <ProductsContextProvider>
+        <CartContextProvider>
+          <Routes />
+          <App />
+        </CartContextProvider>
+      </ProductsContextProvider>
+    </HelmetProvider>,
+  document.getElementById('root')
 );
 
-ReactDOM.render( app, document.getElementById( 'root' ) );
-registerServiceWorker();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
