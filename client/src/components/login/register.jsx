@@ -28,9 +28,7 @@ export class Register extends React.Component {
               <input type="password" name="password" placeholder="password" />
             </div>
           </div>
-        </div>
-        <div className="footer">
-          <button type="button" className="btn">
+          <button type="button" className="btn btn-primary" onClick={event => window.location.href='/store'}>
             Register
           </button>
         </div>
