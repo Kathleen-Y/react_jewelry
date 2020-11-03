@@ -5,7 +5,7 @@
 ## Acceptance Criteria: 
 - Use MERN
 - Deploy App
-- Use CSS not bootstrap
+
 
 ## Notes: 
 - Will use reactstrap for CSS.

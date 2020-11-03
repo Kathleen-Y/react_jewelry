@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CartContext } from '../../contexts/CartContext';
 
 import CartItem from './CartItem';
-import styles from './CartProducts.module.scss';
+import styles from './CartProducts.module.css';
 
 const CartProducts = () => {
 
@@ -11,11 +11,9 @@ const CartProducts = () => {
     return ( 
         <div className={styles.p__container}>
             <div className="card card-body border-0">
-
                 {
-                    cartItems.map(product =>  <CartItem key={product.id} product={product}/>)
+                    cartItems.map(product =>  <CartItem key={product.id.img_src} product={product}/>)
                 }
-
             </div>
         </div>
 

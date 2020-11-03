@@ -1,4 +1,4 @@
-[
+export const dummyProducts = [
  {
    "id": 1,
    "name": "black-resin-onyx-earrings",
@@ -448,5 +448,5 @@
    "tags": "Rings",
    "price": 288,
    "img_src": "https://cdn.shopify.com/s/files/1/0755/2497/products/635a26cd-e550-476e-aac0-f48e8e102114.png?v=1588451861"
- }
-]
+ },
+];

@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 
 import CartProducts from './CartProducts';
 import { CartContext } from '../../contexts/CartContext';
-import { formatNumber } from '../../helpers/utils';
+import { formatNumber } from '../helpers/utils';
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
